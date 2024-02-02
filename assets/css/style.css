@@ -11,6 +11,8 @@
     max-width: 100%;
 }
 
+:root {}
+
 /* header */
 #site_header {
 
@@ -50,10 +52,15 @@
 
 .list_header {
     display: none;
+
+
+
 }
 
 
 /* endheader */
+
+
 
 
 /* site-main */
@@ -63,13 +70,16 @@
 
 .demo {
     width: 100%;
+
 }
 
 
 .container_demo {
     margin: auto;
-    width: 60%;
+    width: 80%;
     display: flex;
+
+
 
 }
 
@@ -81,17 +91,17 @@
 
 
 .card {
-    margin: 0 2rem;
     text-align: start;
-    border-radius: 1rem;
+    border-radius: 4rem;
     margin-top: 1rem;
     background-color: #B5DDFF;
     padding: 1rem;
 
+
 }
 
 .height-30 {
-    height: 30rem;
+    height: 35rem;
 }
 
 
@@ -109,6 +119,7 @@
 
 .img {
     margin: 0 25%;
+    display: flex;
 
 }
 
@@ -127,7 +138,7 @@
 
 /* 2card */
 .code {
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
     color: #0084FD;
 }
@@ -140,7 +151,72 @@
 
 .height {
     height: 25rem;
+    font-size: 15px;
 }
+
+
+
+/* planning */
+.planning {
+    width: 100%;
+    background-color: #9792E4;
+}
+
+    .container_planning {
+        margin: auto;
+        width: 70%;
+        display: flex;
+    }
+
+.font-3 {
+    font-size: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.font-2 {
+    font-size: 2rem;
+}
+
+.card1 {
+    border-radius: 2rem;
+    background-color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+
+}
+
+.title_planning {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.lorem-center-p{
+    text-align: center;
+    font-size: 25px;
+    padding: 3rem;
+}
+
+.arrow{
+    text-align: center;
+    font-size: 3rem;
+    border-radius: 7rem;
+    background-color: #9792E4;
+    padding: 2rem;
+    position: relative;
+    left: 40%;
+    width: 120px;
+ 
+}
+
+
+
+
+/* thestimonials */
 
 
 
@@ -221,7 +297,79 @@
 
 
 /* media-header */
+/* tabletmedia */
 @media screen and (min-width: 768px) {
+
+    .col-sm-8 {
+        width: calc((100% / 12) * 8);
+
+    }
+
+
+    .col-sm-4 {
+        width: calc((100% / 12) * 4);
+
+    }
+
+    .font {
+        font-size: 10px;
+    }
+
+    .lorem-center {
+        font-size: 15px;
+    }
+
+    .card {
+        margin: 1rem 2px;
+    }
+
+    .img_planning {
+        width: 700px;
+    }
+
+    .font-3 {
+        font-size: 4rem;
+        padding: 1rem;
+
+    }
+
+    .font-2 {
+        padding: 1rem;
+
+    }
+
+    .container_planning {
+        margin-left: 0;
+
+    }
+
+    .container_demo {
+        margin: auto;
+        width: 90%;
+        display: flex;
+    }
+
+    .container_header {
+        width: 90%;
+        margin: auto;
+        display: flex;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+/* desktopmedia */
+@media screen and (min-width: 992px) {
+
+
+
     .list_header {
         list-style: none;
         display: flex;
@@ -230,45 +378,59 @@
         text-decoration: none;
         align-items: center;
 
-
     }
 
     .bars {
         display: none;
     }
 
+
+
+
     .start {
-
-
         color: black;
         background-color: white;
         border-radius: 1rem;
         padding: 5px;
 
-
     }
 
-    .col-sm-8 {
-        width: calc((100% / 12) * 8);
-
+    .col-lg-6 {
+        width: 50%;
     }
 
-  
-
-
-
-    .col-sm-4 {
-        width: calc((100% / 12) * 4);
-
+    .container_planning {
+        margin: auto;
+        width: 60%;
+        display: flex;
+    }
+    .card1{
+        max-width: 70%;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
     }
 
-    .font{
-        font-size: 10px;
+    .demo{
+        margin: auto;
+        width: 60%;
+        display: flex;
+        
     }
     
-    .lorem-center {
-        font-size: 20px;
+    .img_planning{
+        width:250px;
+
     }
+
+    .card-planning{
+        margin-top: 7rem;
+
+
+    }
+
+
 
 
 }
+
+
