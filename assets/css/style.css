@@ -26,7 +26,7 @@
 .container_header {
     margin: auto;
     background-color: #0084FD;
-    width: 60%;
+    width: 80%;
     align-items: center;
     padding: 1rem;
     justify-content: space-between;
@@ -162,11 +162,11 @@
     background-color: #9792E4;
 }
 
-    .container_planning {
-        margin: auto;
-        width: 70%;
-        display: flex;
-    }
+.container_planning {
+    margin: auto;
+    width: 70%;
+    display: flex;
+}
 
 .font-3 {
     font-size: 3rem;
@@ -182,7 +182,8 @@
     border-radius: 2rem;
     background-color: white;
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-bottom: 2rem;
+
 
 
 }
@@ -195,13 +196,13 @@
 
 }
 
-.lorem-center-p{
+.lorem-center-p {
     text-align: center;
     font-size: 25px;
     padding: 3rem;
 }
 
-.arrow{
+.arrow {
     text-align: center;
     font-size: 3rem;
     border-radius: 7rem;
@@ -210,16 +211,152 @@
     position: relative;
     left: 40%;
     width: 120px;
- 
+
 }
 
 
 
 
 /* thestimonials */
+.testimonials {
+    width: 100%;
+
+}
 
 
 
+.container_testimonials {
+    margin: auto;
+    width: 70%;
+    display: flex;
+}
+
+.font_title_testimonial {
+    font-size: medium;
+
+}
+
+.color-title-testimonial {
+    color: #9792E4;
+
+}
+
+
+.lorem-testimonial {
+    text-align: center;
+}
+
+
+.img-testimonial {
+    border-radius: 10rem;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 17%;
+    padding: 2rem;
+}
+
+.card2 {
+    background-color: #9792E4;
+    margin-top: 2rem;
+    border-radius: 5rem;
+}
+
+
+/* benefits */
+
+.benefits{
+    width: 100%;
+    background-color: #9792E4;
+    margin-top: 4rem;
+
+}
+
+
+.card3{
+    text-align: start;
+    border-radius: 4rem;
+    margin-top: 2rem;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+.title_benefits{
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+
+}
+
+.title-benefits1{
+    color: #9792E4;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.lorem-benefits{
+    color: gray;
+    padding: 1rem;
+    font-size: 2rem;
+
+}
+
+.button-more{
+    color: white;
+    background-color: #9792E4;
+    display: flex;
+    justify-content: center;
+    width: 7rem;
+    position: relative;
+    left: 30%;
+    font-size: 2rem;
+    border-radius: 3rem;
+}
+
+
+/* about us */
+
+.lorem-about{
+    padding: 2rem;
+    font-size: 4rem
+
+}
+.title-about{
+    padding: 2rem;
+    color: #9792E4;
+    font-size: 5rem;
+}
+
+
+.lorem-about1{
+    color: #9792E4;
+    padding: 2rem;
+    font-size: 3rem;
+
+}
+
+.img-about{
+
+    border-radius: 10rem;
+    width: 300px;
+    height: 300px;
+    padding: 2rem;
+}
+
+
+.linkedin{
+    color: white;
+    background-color: #9792E4;
+    border-radius: 3rem;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
 
 
 
@@ -339,7 +476,9 @@
     }
 
     .container_planning {
-        margin-left: 0;
+        margin: auto;
+        width: 90%;
+        display: flex;
 
     }
 
@@ -355,6 +494,39 @@
         display: flex;
 
     }
+
+    .img-testimonial {
+        left: 0;
+    }
+
+    .card2 {
+        display: flex;
+    }
+
+
+    .lorem-center-p {
+        padding: 0;
+        text-align: start;
+        margin-top: 2rem;
+
+    }
+
+    .container_testimonials {
+        width: 90%;
+        margin: auto;
+        display: flex;
+
+    }
+
+    .col-sm-6{
+        width: 50%;
+        display: flex;
+    }
+    
+    .lorem-about{
+        font-size: 3rem;
+    }
+
 
 
 
@@ -404,33 +576,50 @@
         width: 60%;
         display: flex;
     }
-    .card1{
+
+    .card1 {
         max-width: 70%;
         margin-top: 10rem;
         margin-bottom: 10rem;
     }
 
-    .demo{
+    .demo {
         margin: auto;
         width: 60%;
         display: flex;
-        
-    }
-    
-    .img_planning{
-        width:250px;
 
     }
 
-    .card-planning{
+    .img_planning {
+        width: 250px;
+
+    }
+
+    .card-planning {
         margin-top: 7rem;
 
 
     }
 
+    .container_testimonials {
+        width: 60%;
+        margin: auto;
+        display: flex;
+
+    }
+
+    .col-lg-4 {
+        width: calc((100% / 12) * 4);
+    
+    }
+
+
+    .lorem-about{
+        font-size: 3rem;
+    }
+
+
 
 
 
 }
-
-
