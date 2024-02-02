@@ -5,13 +5,13 @@
 }
 
 
-.debug header {
+header {
     background-color: #0084FD;
     width: 100%;
     max-width: 100%;
 }
 
-:root {}
+
 
 /* header */
 #site_header {
@@ -26,7 +26,7 @@
 .container_header {
     margin: auto;
     background-color: #0084FD;
-    width: 80%;
+    width: 70%;
     align-items: center;
     padding: 1rem;
     justify-content: space-between;
@@ -64,7 +64,7 @@
 
 
 /* site-main */
-.debug main {
+main {
     width: 100%;
 }
 
@@ -76,7 +76,7 @@
 
 .container_demo {
     margin: auto;
-    width: 80%;
+    width: 70%;
     display: flex;
 
 
@@ -360,7 +360,7 @@
 /* get started */
 .container-get-started{
     margin: auto;
-    width: 80%;
+    width: 70%;
 }
 
 
@@ -393,12 +393,27 @@
     margin: 2rem;
     max-width: 500px;
 
-
-  
 }
 
 
 
+#site_footer{
+    background-color: #333333;    
+}
+
+
+.contaier_footer{
+    width: 70%;
+    margin: auto;
+}
+
+.lorem-footer{
+    text-align: center;
+    color: white;
+    padding: 3rem;
+    font-size: 2rem;
+
+}
 
 
 
@@ -581,6 +596,11 @@
 
     }
         
+    .contaier_footer{
+        width: 90%;
+        margin: auto;
+    }
+    
 
 
 
@@ -683,6 +703,12 @@
         position: relative;
         left: 35%;
     }
+
+    .contaier_footer{
+        width: 60%;
+        margin: auto;
+    }
+    
 
 
 }
